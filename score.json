@@ -1,0 +1,382 @@
+{
+  "generated_at": "2026-04-04",
+  "requirements_file": "Requirement.md",
+  "evaluation_mode": "baseline",
+  "notes": [
+    "This file records baseline scores for the repository against Requirement.md.",
+    "01_mathematics retains its original baseline score here; its post-revision score is recorded separately in updated_score.json.",
+    "Scores for non-mathematics files are approximate baseline evaluations intended for prioritization."
+  ],
+  "scoring_scale": {
+    "min": 0,
+    "max": 100,
+    "bands": {
+      "90-100": "excellent / research-ready roadmap",
+      "75-89": "strong but still partial",
+      "60-74": "usable but materially incomplete",
+      "0-59": "insufficient"
+    }
+  },
+  "disciplines": {
+    "01_mathematics": {
+      "file": "01_mathematics/Mathematics.md",
+      "overall_score": 79,
+      "status": "strong_but_partial",
+      "summary": "Original baseline retained here. Before revision, the file was strong but still partial because textbook guidance was not fully level-aware and the literature map was uneven across major subfields."
+    },
+    "02_physics": {
+      "file": "02_physics/Physics.md",
+      "overall_score": 86,
+      "status": "strong_but_partial",
+      "summary": "Very strong on curriculum, graduate depth, tools, and subfield realism; literature is broad but still somewhat uneven and partly survey-like rather than a fully curated research-entry canon."
+    },
+    "03_chemistry": {
+      "file": "03_chemistry/Chemistry.md",
+      "overall_score": 87,
+      "status": "strong_but_partial",
+      "summary": "Comprehensive from undergraduate labs to PhD specialization with strong instrument and textbook coverage; canonical literature is better than most files but still mixes exact landmarks with some generalized pointers."
+    },
+    "04_biology": {
+      "file": "04_biology/Biology.md",
+      "overall_score": 88,
+      "status": "strong_but_partial",
+      "summary": "One of the strongest files, with detailed curriculum, modern methods, and realistic subfield depth; it still needs more consistently curated course-level and subfield-specific literature to be fully research-ready."
+    },
+    "05_earth_environmental_sciences": {
+      "file": "05_earth_environmental_sciences/Earth_Environmental_Sciences.md",
+      "overall_score": 84,
+      "status": "strong_but_partial",
+      "summary": "Strong field realism with methods, data sources, and good disciplinary spread; textbook and literature guidance are solid but less systematically curated than the best files."
+    },
+    "06_astronomy": {
+      "file": "06_astronomy/Astronomy.md",
+      "overall_score": 85,
+      "status": "strong_but_partial",
+      "summary": "Good coverage of training path, observatories, and active frontiers with credible texts and papers; the literature remains somewhat survey-heavy and only partially structured as a research-entry roadmap."
+    },
+    "07_mechanical_engineering": {
+      "file": "07_mechanical_engineering/Mechanical_Engineering.md",
+      "overall_score": 80,
+      "status": "strong_but_partial",
+      "summary": "Realistic engineering curriculum, tools, and methods are strong; literature quality drops because several entries are placeholder-style rather than tightly specified seminal works."
+    },
+    "08_electrical_computer_engineering": {
+      "file": "08_electrical_computer_engineering/Electrical_Computer_Engineering.md",
+      "overall_score": 82,
+      "status": "strong_but_partial",
+      "summary": "Solid breadth across core ECE domains with credible tools and textbook coverage; the literature is more representative than fully curated and the research-entry map is still partial."
+    },
+    "09_civil_environmental_engineering": {
+      "file": "09_civil_environmental_engineering/Civil_Environmental_Engineering.md",
+      "overall_score": 79,
+      "status": "strong_but_partial",
+      "summary": "Good professional realism, software specificity, and practical subfields; literature mixes exact landmarks with generalized references and graduate depth is lighter than the requirement asks."
+    },
+    "10_chemical_biomolecular_engineering": {
+      "file": "10_chemical_biomolecular_engineering/Chemical_Biomolecular_Engineering.md",
+      "overall_score": 73,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Usable core structure and plausible specialization areas, but methods, graduate depth, and canonical literature are substantially thinner than needed for a strong research roadmap."
+    },
+    "11_biomedical_engineering": {
+      "file": "11_biomedical_engineering/Biomedical_Engineering.md",
+      "overall_score": 74,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Good disciplinary fit and plausible texts and methods, yet the file is compact enough that infrastructure, curriculum depth, and literature remain materially incomplete."
+    },
+    "12_aerospace_engineering": {
+      "file": "12_aerospace_engineering/Aerospace_Engineering.md",
+      "overall_score": 72,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Clear scaffolding for curriculum and specialization, but research methods, textbook stratification, and landmark literature are too compressed for research-readiness."
+    },
+    "13_materials_science_engineering": {
+      "file": "13_materials_science_engineering/Materials_Science_Engineering.md",
+      "overall_score": 77,
+      "status": "strong_but_partial",
+      "summary": "Reasonably strong on methods, tools, and field-specific subareas; literature and course-by-course text coverage are present but not deep enough for a full research-entry roadmap."
+    },
+    "14_industrial_systems_engineering": {
+      "file": "14_industrial_systems_engineering/Industrial_Systems_Engineering.md",
+      "overall_score": 77,
+      "status": "strong_but_partial",
+      "summary": "Good operations and optimization orientation with realistic tools; literature and graduate depth are adequate but still too compact and generic for the target standard."
+    },
+    "15_other_engineering": {
+      "file": "15_other_engineering/Other_Engineering.md",
+      "overall_score": 58,
+      "status": "insufficient",
+      "summary": "Structurally weakest because it compresses several disciplines into one partial file; multiple subfields lack full methods, textbook, and literature treatment required by Requirement.md."
+    },
+    "16_computer_science": {
+      "file": "16_computer_science/Computer_Science.md",
+      "overall_score": 77,
+      "status": "strong_but_partial",
+      "summary": "Strong curriculum and tool coverage with recognizable core texts, but the paper list contains several vague or placeholder-like entries and does not yet function as a fully curated research canon."
+    },
+    "17_data_science": {
+      "file": "17_data_science/Data_Science.md",
+      "overall_score": 74,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Good practical framing and methods-tool realism, but textbook stratification and canonical literature are still too thin for a field spanning undergraduate training to research depth."
+    },
+    "18_cybersecurity": {
+      "file": "18_cybersecurity/Cybersecurity.md",
+      "overall_score": 75,
+      "status": "strong_but_partial",
+      "summary": "Practical tools and frontier topics are credible, but the literature and graduate-research structure remain somewhat template-like rather than fully concrete and field-defining."
+    },
+    "19_medicine": {
+      "file": "19_medicine/Medicine.md",
+      "overall_score": 78,
+      "status": "strong_but_partial",
+      "summary": "Strong professional realism, sensible credential path, and concrete landmark studies and guidelines; level-aware text curation and full research-training structure are still somewhat compressed."
+    },
+    "20_biomedical_sciences": {
+      "file": "20_biomedical_sciences/Biomedical_Sciences.md",
+      "overall_score": 76,
+      "status": "strong_but_partial",
+      "summary": "Good biomedical research orientation with relevant methods and literature, but breadth across subfields and graduate training mechanics is compressed."
+    },
+    "21_public_health": {
+      "file": "21_public_health/Public_Health.md",
+      "overall_score": 80,
+      "status": "strong_but_partial",
+      "summary": "One of the stronger health files, with concrete methods, datasets, and field-appropriate landmark literature; it still needs more explicit graduate milestones and course-by-course depth."
+    },
+    "22_nursing": {
+      "file": "22_nursing/Nursing.md",
+      "overall_score": 72,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Professionally grounded and reasonably concrete, but the file is short on literature depth, graduate structure, and level-aware text curation."
+    },
+    "23_pharmacy": {
+      "file": "23_pharmacy/Pharmacy.md",
+      "overall_score": 73,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Good professional framing and core texts, yet research designs, guidelines, and literature coverage are not expansive enough for a strong research-entry map."
+    },
+    "24_dentistry": {
+      "file": "24_dentistry/Dentistry.md",
+      "overall_score": 71,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Clinically realistic but relatively compressed, with thinner literature and methods or infrastructure detail than the quality bar expects."
+    },
+    "25_veterinary_medicine": {
+      "file": "25_veterinary_medicine/Veterinary_Medicine.md",
+      "overall_score": 68,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Basic professional structure is present, but methods, literature, and research-depth treatment look sparse for a broad clinical and research field."
+    },
+    "26_allied_health": {
+      "file": "26_allied_health/Allied_Health.md",
+      "overall_score": 63,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Useful high-level overview, but it is structurally one of the thinnest health files and lacks enough literature concreteness and research-infrastructure detail."
+    },
+    "27_economics": {
+      "file": "27_economics/Economics.md",
+      "overall_score": 76,
+      "status": "strong_but_partial",
+      "summary": "Strong social-science structure with solid methods and classic texts, but several literature entries are broad placeholders rather than exact must-read papers or books."
+    },
+    "28_political_science": {
+      "file": "28_political_science/Political_Science.md",
+      "overall_score": 75,
+      "status": "strong_but_partial",
+      "summary": "Good theory and methods framing with a usable baseline structure, but graduate depth and canonical literature remain compact and not fully concrete."
+    },
+    "29_psychology": {
+      "file": "29_psychology/Psychology.md",
+      "overall_score": 74,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Reasonable field map and methods coverage, but literature depth and research-entry specificity appear modest relative to Requirement.md."
+    },
+    "30_sociology": {
+      "file": "30_sociology/Sociology.md",
+      "overall_score": 73,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Good methodological pluralism and subfield range, but many literature items are umbrella references rather than tightly specified canonical works."
+    },
+    "31_anthropology": {
+      "file": "31_anthropology/Anthropology.md",
+      "overall_score": 72,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Solid disciplinary framing, but methods, literature, and graduate depth remain only partially developed."
+    },
+    "32_linguistics": {
+      "file": "32_linguistics/Linguistics.md",
+      "overall_score": 74,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Good field fit and better-than-average methods coverage, but the research reading roadmap is still compact rather than deeply curated."
+    },
+    "33_geography": {
+      "file": "33_geography/Geography.md",
+      "overall_score": 74,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Useful cross-physical and human geography structure, yet the file is baseline rather than fully research-ready in literature and curricular detail."
+    },
+    "34_communications": {
+      "file": "34_communications/Communications.md",
+      "overall_score": 70,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Adequate overview, but communications needs more concrete methods traditions, subfield-specific canon, and graduate research structure."
+    },
+    "35_history": {
+      "file": "35_history/History.md",
+      "overall_score": 79,
+      "status": "strong_but_partial",
+      "summary": "Strong humanities realism with concrete historiography and a substantial book and article canon; textbook mapping and graduate milestone detail are lighter than the top standard."
+    },
+    "36_philosophy": {
+      "file": "36_philosophy/Philosophy.md",
+      "overall_score": 81,
+      "status": "strong_but_partial",
+      "summary": "One of the strongest humanities files, with substantial canonical coverage and clear methodological traditions; it still needs more level-aware course-text mapping and research-training mechanics."
+    },
+    "37_english_literature": {
+      "file": "37_english_literature/English_Literature.md",
+      "overall_score": 78,
+      "status": "strong_but_partial",
+      "summary": "Good canon and thematic reading depth for a book-centered field, but curriculum and research progression are less fully built out than in the best files."
+    },
+    "38_religious_studies": {
+      "file": "38_religious_studies/Religious_Studies.md",
+      "overall_score": 77,
+      "status": "strong_but_partial",
+      "summary": "Strong book-centered framing and credible methods for the discipline, though the research roadmap remains somewhat compact and less differentiated by subfield."
+    },
+    "39_classics": {
+      "file": "39_classics/Classics.md",
+      "overall_score": 78,
+      "status": "strong_but_partial",
+      "summary": "Good field realism around languages, texts, and history with a credible canon, but graduate milestones and subfield-specific research infrastructure could be more explicit."
+    },
+    "40_fine_arts": {
+      "file": "40_fine_arts/Fine_Arts.md",
+      "overall_score": 69,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Appropriately practice-centered, but methods, workflows, and literature remain broad and lighter than needed for robust research or studio-readiness."
+    },
+    "41_music": {
+      "file": "41_music/Music.md",
+      "overall_score": 80,
+      "status": "strong_but_partial",
+      "summary": "Strong for an arts field, with a clear training model, concrete methods, and a substantial field-appropriate canon; research and practice pathways could still be more explicit."
+    },
+    "42_theater": {
+      "file": "42_theater/Theater.md",
+      "overall_score": 70,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Reasonably aligned to practice-centered theater training, but the file is compact and thin on methods, workflows, and landmark scholarship."
+    },
+    "43_architecture": {
+      "file": "43_architecture/Architecture.md",
+      "overall_score": 80,
+      "status": "strong_but_partial",
+      "summary": "Strong practice-field realism with studio, tools, licensure, and a serious canonical reading list; it is still lighter on explicit graduate milestones and the research-practice split."
+    },
+    "44_design": {
+      "file": "44_design/Design.md",
+      "overall_score": 71,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Good design-field fit and methods orientation, but literature and curriculum depth remain concise rather than full research-entry quality."
+    },
+    "45_accounting": {
+      "file": "45_accounting/Accounting.md",
+      "overall_score": 72,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Strong professional realism, concrete tools, and a credible mix of textbooks and standards, but graduate depth is effectively absent and the research roadmap is still partial."
+    },
+    "46_finance": {
+      "file": "46_finance/Finance.md",
+      "overall_score": 79,
+      "status": "strong_but_partial",
+      "summary": "Strong business-field structure with canonical papers and realistic methods and datasets; it remains somewhat thin on graduate milestones and broader research infrastructure."
+    },
+    "47_marketing": {
+      "file": "47_marketing/Marketing.md",
+      "overall_score": 74,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Good subfield framing and research topics for a business discipline, but literature depth and curriculum specificity are more compact than in the stronger files."
+    },
+    "48_management": {
+      "file": "48_management/Management.md",
+      "overall_score": 74,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Solid overview of management as a research field, though methods and literature remain somewhat generic relative to the requirement."
+    },
+    "49_information_systems": {
+      "file": "49_information_systems/Information_Systems.md",
+      "overall_score": 74,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Reasonable field-specific structure and business-tech bridge, but the reading roadmap is concise and only partially concrete."
+    },
+    "50_supply_chain_operations": {
+      "file": "50_supply_chain_operations/Supply_Chain_Operations.md",
+      "overall_score": 75,
+      "status": "strong_but_partial",
+      "summary": "Good operations orientation and methods realism, but literature and level-aware curriculum depth appear serviceable rather than strong."
+    },
+    "51_law": {
+      "file": "51_law/Law.md",
+      "overall_score": 80,
+      "status": "strong_but_partial",
+      "summary": "One of the better professional-field files, with strong doctrinal structure, concrete canonical cases and books, and clear method realism; it still needs a fuller research-entry map beyond survey-level course texts."
+    },
+    "52_education": {
+      "file": "52_education/Education.md",
+      "overall_score": 79,
+      "status": "strong_but_partial",
+      "summary": "Strong education-field coverage with clear teacher-prep and research tracks plus a substantial canon; methods are good, but course-to-text coverage and research-readiness could still be tighter."
+    },
+    "53_agricultural_sciences": {
+      "file": "53_agricultural_sciences/Agricultural_Sciences.md",
+      "overall_score": 70,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Useful disciplinary overview, but agriculture needs more concrete methods, datasets, experimental infrastructure, and landmark literature than this concise file provides."
+    },
+    "54_forestry_natural_resources": {
+      "file": "54_forestry_natural_resources/Forestry_Natural_Resources.md",
+      "overall_score": 70,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Reasonable field framing, yet research infrastructure, methods specificity, and canonical readings are too thin for a natural-resources roadmap."
+    },
+    "55_cognitive_science": {
+      "file": "55_cognitive_science/Cognitive_Science.md",
+      "overall_score": 79,
+      "status": "strong_but_partial",
+      "summary": "Strong interdisciplinary framing with credible methods and a substantial cross-field reading list; it is still somewhat survey-like and uneven in level-aware textbook and course mapping."
+    },
+    "56_neuroscience": {
+      "file": "56_neuroscience/Neuroscience.md",
+      "overall_score": 74,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Good field fit and plausible frontier topics, but the file is relatively short for neuroscience and underdeveloped in methods, datasets, and canonical paper depth."
+    },
+    "57_environmental_studies": {
+      "file": "57_environmental_studies/Environmental_Studies.md",
+      "overall_score": 73,
+      "status": "usable_but_materially_incomplete",
+      "summary": "Useful interdisciplinary overview, but environmental studies needs more explicit method pluralism and literature concreteness to meet the repository standard."
+    },
+    "58_gender_race_ethnic_studies": {
+      "file": "58_gender_race_ethnic_studies/Gender_Race_Ethnic_Studies.md",
+      "overall_score": 80,
+      "status": "strong_but_partial",
+      "summary": "Strong humanities and social-theory fit with a substantial, concrete canon and clear methods; it is lighter on graduate training mechanics and research infrastructure than the strongest files."
+    },
+    "59_bioethics": {
+      "file": "59_bioethics/Bioethics.md",
+      "overall_score": 78,
+      "status": "strong_but_partial",
+      "summary": "Good interdisciplinary and professional fit with credible canonical works and contemporary frontiers, but methods, guidelines or cases, and formal research pathways are still somewhat compact."
+    },
+    "60_quantum_science": {
+      "file": "60_quantum_science/Quantum_Science.md",
+      "overall_score": 83,
+      "status": "strong_but_partial",
+      "summary": "Strong emerging-field roadmap with concrete tools, hardware, algorithms, and landmark papers; some literature remains review- or placeholder-oriented and the curricular path is still less standardized than mature disciplines."
+    }
+  }
+}
